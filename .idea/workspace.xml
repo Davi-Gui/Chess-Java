@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35e83925-8dab-45b4-b25c-e1a038bc576d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="35e83925-8dab-45b4-b25c-e1a038bc576d" name="Changes" comment="Creation of the board">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/CheckScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pieces/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pieces.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2fXw3JzpErWtjmXmvB4WMReTjln" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,23 +60,30 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Chess.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/davi/Desktop/GitHub/Chess/Chess&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Board">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Board" />
+      <option name="MAIN_CLASS_NAME" value="main.Board" />
       <module name="Chess" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="Chess" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,6 +104,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713960532252</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creation of the board">
+      <option name="closed" value="true" />
+      <created>1714055105660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714055105660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of the board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of the board" />
   </component>
 </project>
